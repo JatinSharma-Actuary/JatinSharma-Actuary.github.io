@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JATIN SHARMA | Actuarial Science</title>
+<style>
+:root {
+  --ink:#172033; --muted:#5f6b7a; --accent:#1f6feb; --soft:#eef5ff;
+  --line:#dfe5ec; --bg:#f5f7fa; --card:#ffffff;
+}
+* { box-sizing:border-box; margin:0; padding:0; }
+body {
+  font-family: Inter, Arial, sans-serif; color:var(--ink); background:var(--bg);
+  line-height:1.6;
+}
+.container { max-width:1100px; margin:auto; padding:28px 20px 50px; }
+.hero {
+  background:linear-gradient(135deg,#172033,#24558f); color:white; border-radius:22px;
+  padding:42px; display:flex; gap:28px; align-items:center; box-shadow:0 18px 45px rgba(23,32,51,.15);
+}
+.avatar {
+  width:125px; height:125px; border-radius:50%; background:rgba(255,255,255,.15);
+  border:3px solid rgba(255,255,255,.7); display:flex; align-items:center; justify-content:center;
+  font-size:42px; font-weight:800; flex:none;
+}
+h1 { font-size:clamp(32px,5vw,52px); line-height:1.05; letter-spacing:-1px; }
+.subtitle { font-size:20px; margin:8px 0 16px; opacity:.9; }
+.contact { display:flex; flex-wrap:wrap; gap:8px 18px; font-size:14px; opacity:.92; }
+.contact a { color:white; text-decoration:none; }
+.grid { display:grid; grid-template-columns:1.35fr .65fr; gap:22px; margin-top:22px; }
+.card {
+  background:var(--card); border:1px solid var(--line); border-radius:18px; padding:25px;
+  box-shadow:0 7px 25px rgba(23,32,51,.05);
+}
+.full { grid-column:1/-1; }
+h2 { font-size:21px; margin-bottom:15px; padding-bottom:9px; border-bottom:2px solid var(--soft); }
+h3 { font-size:18px; margin-bottom:3px; }
+.muted { color:var(--muted); }
+.profile { font-size:16px; color:#344054; }
+.timeline { border-left:3px solid var(--accent); padding-left:18px; }
+.date { color:var(--accent); font-weight:700; font-size:14px; margin-bottom:8px; }
+.tags { display:flex; flex-wrap:wrap; gap:9px; }
+.tag {
+  background:var(--soft); color:#174a88; border:1px solid #d7e7ff;
+  padding:6px 11px; border-radius:999px; font-size:13px; font-weight:600;
+}
+table { width:100%; border-collapse:collapse; font-size:14px; }
+th,td { text-align:left; padding:11px 9px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.5px; }
+ul { padding-left:20px; }
+li { margin:8px 0; }
+footer { text-align:center; color:var(--muted); margin-top:22px; font-size:13px; }
+@media(max-width:760px) {
+  .hero { padding:28px 22px; flex-direction:column; text-align:center; }
+  .contact { justify-content:center; }
+  .grid { grid-template-columns:1fr; }
+  .full { grid-column:auto; }
+  .card { padding:20px; overflow-x:auto; }
+  table { min-width:620px; }
+}
+@media print {
+  body { background:white; }
+  .container { max-width:none; padding:0; }
+  .hero { box-shadow:none; }
+  .card { box-shadow:none; break-inside:avoid; }
+}
+</style>
+</head>
+<body>
+<main class="container">
+
+<section class="hero">
+  <div class="avatar">JS</div>
+  <div>
+    <h1>JATIN SHARMA</h1>
+    <div class="subtitle">Specialized in Actuarial Science</div>
+    <div class="contact">
+      <a href="mailto:jatin.sharma20@s.amity.edu">✉ jatin.sharma20@s.amity.edu</a>
+      <a href="tel:9650915069">☎ 9650915069</a>
+      <span>📍 Basant Nagar - 110057</span>
+    </div>
+  </div>
+</section>
+
+<div class="grid">
+  <section class="card full">
+    <h2>Profile</h2>
+    <p class="profile">Actuarial Science postgraduate student with a commerce background and practical exposure to insurance broking and underwriting. Interested in actuarial analytics, insurance, risk modelling and data-driven decision making, with hands-on capability in Excel and R.</p>
+  </section>
+
+  <section class="card full">
+    <h2>Academics</h2>
+    <table>
+      <thead><tr><th>Qualification</th><th>Institute / Board / University</th><th>Year</th><th>Score</th></tr></thead>
+      <tbody><tr><td><strong>M.Sc. (AS)</strong></td><td>Amity School of Insurance, Banking and Actuarial Science, Amity University</td><td>2027</td><td>7.27</td></tr>
+<tr><td><strong>B.Com (Delhi University)</strong></td><td>University of Delhi</td><td>2024</td><td>66.52</td></tr>
+<tr><td><strong>XII</strong></td><td>Kerala Education Society School (CBSE)</td><td>2021</td><td>84.00</td></tr>
+<tr><td><strong>X</strong></td><td>Kerala Education Society School (CBSE)</td><td>2019</td><td>83.60</td></tr></tbody>
+    </table>
+  </section>
+
+  <section class="card">
+    <h2>Certifications</h2>
+    <ul><li>CB2 - Business Economics - Institute of Actuaries of India (IAI)</li>
+<li>Actuarial Common Entrance Test (ACET) - Institute of Actuaries of India (IAI)</li></ul>
+  </section>
+
+  <section class="card">
+    <h2>Internship</h2>
+    <div class="timeline">
+      <h3>SPA Insurance Broking Services Ltd.</h3>
+      <div class="date">May 2026 - July 2026</div>
+      <p>Successfully completed an internship at SPA Insurance Broking Services Ltd. from 18 May 2026 to 04 July 2026, gaining practical exposure to insurance broking and underwriting processes, including Employee Benefit and Non-Employee Benefit insurance products.</p>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Project</h2>
+    <h3>Insurance Underwriting Study</h3>
+    <p class="muted"><strong>Internship Project</strong></p>
+    <p style="margin-top:8px;">Study of underwriting principles for Employee Benefit and Non-Employee Benefit insurance products, with focus on practical broking workflows.</p>
+  </section>
+
+  <section class="card">
+    <h2>Technical Skills</h2>
+    <div class="tags"><span class="tag">Excel</span><span class="tag">R Programming</span><span class="tag">SQL</span><span class="tag">Basic Data Analysis</span></div>
+  </section>
+
+  <section class="card">
+    <h2>Actuarial / Insurance</h2>
+    <div class="tags"><span class="tag">Actuarial Fundamentals</span><span class="tag">Insurance Underwriting</span><span class="tag">Employee Benefits</span><span class="tag">Risk Modelling</span></div>
+  </section>
+
+  <section class="card">
+    <h2>Professional Skills</h2>
+    <div class="tags"><span class="tag">Analytical Thinking</span><span class="tag">Documentation</span><span class="tag">Communication</span><span class="tag">Problem Solving</span></div>
+  </section>
+</div>
+
+<footer>© 2026 JATIN SHARMA · Actuarial Science</footer>
+</main>
+</body>
+</html>
